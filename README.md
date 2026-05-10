@@ -11,11 +11,12 @@ Instead, we want students to **get under the hood** and freely experiment with i
 
 Small, transparent, modular pieces you can poke, break, and modify.
 
-### Existing Open-Source Projects in ROMP
+### Recommended Lightweight Open-Source Tools
 
-| Project      | Language                  | Strengths                                                                 | Best For Your Sandbox                                      |
-|--------------|---------------------------|---------------------------------------------------------------------------|------------------------------------------------------------|
-| **PortPy**   | Python                    | Optimization algorithms, benchmark patient data from Eclipse...          | Inverse planning playgrounds, cost functions...           |
-| **PyMedPhys**| Python                    | Broad library for medical physics tasks, DICOM handling, QA tools        | Utilities, data import/export...                           |
-| **OpenTPS**  | Python                    | Full treatment planning system, Monte Carlo support...                   | Complete dose calculation engines...                       |
-| **pyRadPlan**| Python                    | Dose calculation + optimization...                                       | Convolution/superposition...                               |
+These are modular, Python-first projects that let you explore individual concepts without the complexity of full clinical systems.
+
+| Tool          | Language | Description & Strengths                                      | GitHub / Link |
+|---------------|----------|-------------------------------------------------------------|---------------|
+| **PortPy**    | Python   | Excellent for beamlet math, cost functions, inverse planning and optimisation playgrounds. Very educational. | [PortPy-Project/PortPy](https://github.com/PortPy-Project/PortPy) |
+| **PyMedPhys** | Python   | Great utility library — DICOM handling, data conversion, QA tools, and building blocks. The perfect "glue" library. | [pymedphys/pymedphys](https://github.com/pymedphys/pymedphys) |
+| **OpenTPS**   | Python   | Modular treatment planning system with good Monte Carlo support. You can use just the parts you need. | [OpenTPS on GitLab](https://gitlab.com/openmcsquare/opentps) |

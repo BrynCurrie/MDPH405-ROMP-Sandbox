@@ -9,4 +9,3 @@ Interactive Python sandbox for MDPH405 Radiation Oncology Medical Physics. Stude
 | **PyMedPhys**| Python                    | Broad library for medical physics tasks, DICOM handling, QA tools        | Utilities, data import/export...                           |
 | **OpenTPS**  | Python                    | Full treatment planning system, Monte Carlo support...                   | Complete dose calculation engines...                       |
 | **pyRadPlan**| Python                    | Dose calculation + optimization...                                       | Convolution/superposition...                               |
-| **matRad**   | MATLAB (Python bindings)  | Very mature dose calc (pencil beam, Monte Carlo)...                      | Reference implementations...                               |
